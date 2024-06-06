@@ -1,0 +1,34 @@
+.menu {
+    background-color: #171616; /* Dark background color */
+    padding: 20px;
+  }
+
+  /* Styles for the ul element */
+  .menu ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center the menu items */
+    margin-right: 400px;
+  }
+
+  /* Styles for the li elements */
+  .menu li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+    
+  }
+
+  /* Styles for the anchor elements */
+  .menu a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    padding: 10px; /* Add padding to the anchor elements */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+
+  /* Hover styles for the anchor elements */
+  .menu a:hover {
+    color: #e74c3c; /* Change text color on hover */
+  }

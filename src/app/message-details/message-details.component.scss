@@ -1,0 +1,66 @@
+.message-card {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 40px); /* Flex-grow and flex-basis to ensure three cards per row */
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 250px; /* Minimum width to ensure readability */
+    max-width: calc(33.333% - 40px); /* Adjust the width to maintain three cards per row */
+    margin-left: 45px;
+}
+
+.message-header {
+    background-color: #259e4d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.message-content {
+    padding: 20px;
+    color: #0c0707;
+    flex-grow: 1; /* Ensure the content area grows to fill space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text */
+}
+
+.message-header h3, .message-content p {
+    margin: 0;
+}
+
+.delete-button {
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    width: 120px;
+    margin-left: 70px;
+}
+/* Hover effect */
+.delete-button:hover {
+    background-color: #ff3333; /* Darker red on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+/* Focus effect */
+.delete-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.5); /* Outline for accessibility */
+}
+
+/* Active effect */
+.delete-button:active {
+    background-color: #e60000; /* Even darker red on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Restore to original shadow */
+}

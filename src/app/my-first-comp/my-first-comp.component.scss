@@ -1,0 +1,111 @@
+/* Container for the form */
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading of the form */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Form labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Form inputs */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left:  90px; 
+    
+}
+
+/* Submit button hover effect */
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Form data display */
+.form-container div h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-container div p {
+    margin: 5px 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Add gap between the cards */
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    padding: 20px; /* Optional padding */
+    box-sizing: border-box; /* Include padding in width */
+}
+// /* General table styling */
+// table {
+//     width: 80%;
+//     margin: 20px auto;
+//     border-collapse: collapse;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//     font-family: Arial, sans-serif;
+//     background-color: #f9f9f9;
+// }
+
+// /* Table header styling */
+// th {
+//     background-color: #4CAF50;
+//     color: white;
+//     padding: 12px;
+//     text-align: center;
+//     font-size: 18px;
+// }
+
+// /* Table data styling */
+// td {
+//     padding: 12px;
+//     text-align: center;
+//     border-bottom: 1px solid #ddd;
+//     font-size: 16px;
+// }
+
+// /* Table row styling */
+// tr:hover {
+//     background-color: #f1f1f1;
+// }
